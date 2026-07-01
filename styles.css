@@ -39,21 +39,33 @@ body {
 }
 
 /* สไตล์ตารางความสามารถ 4 Columns */
-.skills-table {
+/* สไตล์ตกแต่งตาราง Skills ให้มีกรอบประตามรูปตัวอย่าง */
+.skills-layout-table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    /* สร้างกรอบเส้นประสีน้ำตาลรอบตาราง */
+    border: 2px dashed #8B4513; 
+    background-color: #fff;
 }
 
-.skills-table th, .skills-table td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: center;
+.skills-layout-table td {
+    padding: 12px 15px;
+    font-size: 16px;
+    vertical-align: middle;
 }
 
-.skills-table th {
-    background-color: #007bef;
-    color: white;
+/* จัดให้ชื่อสกุลชิดซ้าย */
+.skill-name {
+    text-align: left;
+    font-weight: 500;
+    color: #333;
+}
+
+/* จัดให้ดาวหรือระดับพลังชิดซ้ายและมีระยะห่างเล็กน้อย */
+.skill-rating {
+    text-align: left;
+    color: #ffcc00; /* สีเหลืองทองสำหรับดาว */
 }
 
 /* สไตล์ปุ่มลิงก์และปุ่มฟอร์ม */
