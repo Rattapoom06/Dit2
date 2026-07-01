@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+        <h2>ฟอร์มการติดต่อ (Contact Form)</h2>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">ชื่อ-นามสกุล:</label>
+                <input type="text" id="name" name="name" required placeholder="กรุณากรอกชื่อของคุณ">
+            </div>
+
+            <div class="form-group">
+                <label for="email">อีเมล:</label>
+                <input type="email" id="email" name="email" required placeholder="example@email.com">
+            </div>
+
+            <div class="form-group">
+                <label for="message">ข้อความที่ต้องการติดต่อ:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="พิมพ์ข้อความที่นี่..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">ส่งข้อความ</button>
+        </form>
+
+        <div class="center-btn">
+            <a href="index.html" class="btn-secondary">กลับหน้าหลัก</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://github.com/your-username" target="_blank">Github ของฉัน</a> | 
+            <a href="index.html">Home</a>
+        </p>
+    </footer>
+
+</body>
+</html>

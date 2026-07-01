@@ -1,0 +1,122 @@
+/* การตั้งค่าพื้นฐาน */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* ทำให้รูปโปรไฟล์เป็นวงกลม */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* ทำรูปวงกลม */
+    object-fit: cover;
+    border: 3px solid #007bef;
+}
+
+/* 💡 Challenge: ทำให้รูปกับ Text ห่างกันอย่างไร? 
+   คำตอบ: ใช้ padding-left ที่คอลัมน์ของข้อความเพื่อผลักเนื้อหาออกไป */
+.profile-info {
+    padding-left: 30px; 
+    vertical-align: middle;
+}
+
+.profile-info h1 {
+    margin: 0 0 10px 0;
+    color: #007bef;
+}
+
+/* สไตล์ตารางความสามารถ 4 Columns */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.skills-table th {
+    background-color: #007bef;
+    color: white;
+}
+
+/* สไตล์ปุ่มลิงก์และปุ่มฟอร์ม */
+.btn-primary, .btn-submit {
+    display: inline-block;
+    background-color: #007bef;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.center-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* สไตล์ฟอร์มติดต่อ */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #007bef;
+    text-decoration: none;
+}
